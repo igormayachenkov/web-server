@@ -1,0 +1,19 @@
+{
+  "name": "frontend-server",
+  "version": "1.0.0",
+  "description": "Static WEB server",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igormayachenkov/web-server.git"
+  },
+  "author": "Igor Mayachenkov",
+  "license": "ISC",
+  "dependencies": {
+    "opuntia": "^0.11.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
